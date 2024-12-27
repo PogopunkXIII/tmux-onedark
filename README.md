@@ -18,11 +18,11 @@ set -g @plugin 'heuristicAL/tmux-atom-onedark'
 set -g @plugin 'tmux-plugins/tpm'
 ```
 
-3. (Optional) Set your preferred flavour, it defaults to `"dark"`:
+3. (Optional) Set your preferred flavor, it defaults to `"dark"`:
 > Currenty, we only have ONE flavor, should change later.
 
 ```bash
-set -g @onedark_flavour 'dark' # or dark, dark, dark 🙃
+set -g @onedark_flavor 'dark' # or dark, dark, dark 🙃
 ```
 
 ### Manual
@@ -32,7 +32,7 @@ set -g @onedark_flavour 'dark' # or dark, dark, dark 🙃
 
 #### Configuration options
 
-All flavours support certain levels of customization. To add these customizations, add any of the following options to your Tmux configuration.
+All flavors support certain levels of customization. To add these customizations, add any of the following options to your Tmux configuration.
 
 In order to have the correct icons displayed please use your favorite nerd fonts patched font.
 
