@@ -19,10 +19,11 @@ set -g @plugin 'tmux-plugins/tpm'
 ```
 
 3. (Optional) Set your preferred flavor, it defaults to `"dark"`:
-> Currenty, we only have ONE flavor, should change later.
+supports `dark` or `darker` both are modeled after their respectively named flavors in [OneDark Nvim](https://github.com/navarasu/onedark.nvim/blob/master/lua/onedark/palette.lua).
+
 
 ```bash
-set -g @onedark_flavor 'dark' # or dark, dark, dark 🙃
+set -g @onedark_flavor 'dark' # or darker
 ```
 
 ### Manual
